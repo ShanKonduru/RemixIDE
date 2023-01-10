@@ -50,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/6_StructExample.sol": "MyFirstContract"
+			"contracts/4_MyFirstContract.sol": "MyFirstContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -64,7 +64,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/6_StructExample.sol": {
+		"contracts/4_MyFirstContract.sol": {
 			"keccak256": "0x403e21327a270a480dced390e71faa7d680cbc36ff8fa9b40964a3d1c9623772",
 			"license": "MIT",
 			"urls": [
