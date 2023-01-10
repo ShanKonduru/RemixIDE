@@ -99,11 +99,11 @@
 	},
 	"sources": {
 		"contracts/8_TimeManagement.sol": {
-			"keccak256": "0xf57e8d2ef30beb97cc89c9866e7efbcc342720e6b64955b7f7134cc980e4d0a1",
+			"keccak256": "0xa406ca123b0b14fda37700c6299b498591ebaa3901afb0c6ca75da80d793073a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://970391c48a0463cb717cb8a2a6e9dedea5258652e5ffa75d18afd88a240073f1",
-				"dweb:/ipfs/QmSVwvTd1ZZLeXDAssb1zCeFHNVhg9bjKGca1YYX38zyay"
+				"bzz-raw://0beb72bfcf2ebe0abd5251b97f241d787b32919fefd1e071456bfb1d8b04b5c0",
+				"dweb:/ipfs/QmZXqqwQgXiW9JgjCHtZa7xwcrm7Rxcy1rGP7qHJvLJwtv"
 			]
 		}
 	},
