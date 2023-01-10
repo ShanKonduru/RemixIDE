@@ -50,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_MyFirstContract.sol": "MyContract"
+			"contracts/5_ExploreDataTypes.sol": "MyFirstContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -64,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_MyFirstContract.sol": {
-			"keccak256": "0xdc4f27df4559cfe9cfbb77c43e34d4d2f2783e57fdfafb4301b72b04a18add36",
+		"contracts/5_ExploreDataTypes.sol": {
+			"keccak256": "0x403e21327a270a480dced390e71faa7d680cbc36ff8fa9b40964a3d1c9623772",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a5c73ee66ea3a082ed5685bb3c6bf80b186f31f6e231b2ca3e890ca8c3691e79",
-				"dweb:/ipfs/QmU9JvjCwt22dwBR6UTyaePq9mVCkCp7fwSNYinpPA68ig"
+				"bzz-raw://5ed220c075fe814ad879cc8c787d8908a283f9a8c2f8ab168b685eb251399abb",
+				"dweb:/ipfs/QmUASFnhK9hEh4qiXTDjwzyX5G5LFj96qhYoKwuGod68eU"
 			]
 		}
 	},

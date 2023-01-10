@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "married",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "salary",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum ExploreDataTypes.OrgType",
+						"name": "_value",
+						"type": "uint8"
+					}
+				],
+				"name": "setOrgType",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setOrgTypeAsPrivateLimited",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setOrgTypeAsPublicLimited",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "workingIn",
+				"outputs": [
+					{
+						"internalType": "enum ExploreDataTypes.OrgType",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/5_ExploreDataTypes.sol": "ExploreDataTypes"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5_ExploreDataTypes.sol": {
+			"keccak256": "0x14d144c47d0de42dee2e17820e2aa6d3201875f493fc3159f046349dc802eacf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c28887c1c817665f888c9fc8d10bad6123eb77251d2d4ff425d838284abc7d29",
+				"dweb:/ipfs/QmTXT9evEAchNAsx9TKr22dWU9gA18Hozve9HepZr2KNdN"
+			]
+		}
+	},
+	"version": 1
+}
