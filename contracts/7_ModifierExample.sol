@@ -22,7 +22,6 @@ contract ModifierExample{
         owner = msg.sender;
     }    
 
-
     function incrementUserCount() internal {
         userCount += 1;
     }
