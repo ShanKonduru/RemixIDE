@@ -84,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/8_TimeManagement.sol": "ModifierExample"
+			"contracts/8_TimeManagement.sol": "TimeManagement"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -99,11 +99,11 @@
 	},
 	"sources": {
 		"contracts/8_TimeManagement.sol": {
-			"keccak256": "0xefb05349d1d639ddbb67eeebf25b477c79da95bf0c80772614c47064be88d02c",
+			"keccak256": "0xf57e8d2ef30beb97cc89c9866e7efbcc342720e6b64955b7f7134cc980e4d0a1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bf9694822559e608de5ac695fddf0d042fe6ed409d281224fac66dbafa9fa600",
-				"dweb:/ipfs/QmWxpgfLJ8wQsUqmKwrwwRXsBE5WeUhUALf8jvxXaYYKLt"
+				"bzz-raw://970391c48a0463cb717cb8a2a6e9dedea5258652e5ffa75d18afd88a240073f1",
+				"dweb:/ipfs/QmSVwvTd1ZZLeXDAssb1zCeFHNVhg9bjKGca1YYX38zyay"
 			]
 		}
 	},
