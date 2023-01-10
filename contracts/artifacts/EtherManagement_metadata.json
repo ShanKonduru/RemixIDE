@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_wallet",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "buyToken",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_EtherManagement.sol": "EtherManagement"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_EtherManagement.sol": {
+			"keccak256": "0x72c7d0f3075b33143e0a69945c2a8937aa836466da354227d527d7b03ac0a72d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://06eaf77babeb3c33af75d3b327d58fbcbffe68bb36e548dbf74cdcdaabbb5fff",
+				"dweb:/ipfs/Qmd4ghdfPtPfG2oWZAwEDnZSj8gFdr8KnSvgMGBNUgg599"
+			]
+		}
+	},
+	"version": 1
+}
