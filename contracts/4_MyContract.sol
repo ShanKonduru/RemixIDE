@@ -6,7 +6,7 @@ contract  MyContract{
     string value;
 
      constructor() {
-        value = "Shan Konduru";
+        value = "Shan Konduru - The King of Kings";
     }
 
     function get() public view returns (string memory) {
