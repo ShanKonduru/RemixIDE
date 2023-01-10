@@ -10,6 +10,10 @@ contract EtherManagement {
         wallet = _wallet;
     }
 
+    fallback () external {
+        buyToken();
+    }
+
     function buyToken() public payable  {
         // Buy a Token 
         balances[msg.sender] += 1;

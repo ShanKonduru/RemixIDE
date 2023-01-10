@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -15,6 +15,10 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
 			},
 			{
 				"inputs": [
@@ -71,11 +75,11 @@
 	},
 	"sources": {
 		"contracts/9_EtherManagement.sol": {
-			"keccak256": "0x72c7d0f3075b33143e0a69945c2a8937aa836466da354227d527d7b03ac0a72d",
+			"keccak256": "0x9a71b290234d0d7a2e38da74fd9187d64b84242998d0702e14e02a992e1cac40",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://06eaf77babeb3c33af75d3b327d58fbcbffe68bb36e548dbf74cdcdaabbb5fff",
-				"dweb:/ipfs/Qmd4ghdfPtPfG2oWZAwEDnZSj8gFdr8KnSvgMGBNUgg599"
+				"bzz-raw://f2081d8abcd34269b97288b59681ee54bbadadbd5a517acc8d6196dca554d468",
+				"dweb:/ipfs/QmSVsaQ8VkQQGrBGXVKDFnua3YBQxUd3YvP6gWtM3L7WFY"
 			]
 		}
 	},
