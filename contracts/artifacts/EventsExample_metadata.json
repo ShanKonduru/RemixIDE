@@ -17,6 +17,25 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_buyer",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "purchase",
+				"type": "event"
+			},
+			{
 				"stateMutability": "nonpayable",
 				"type": "fallback"
 			},
@@ -60,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/10_EventsExample.sol": "EtherManagement"
+			"contracts/10_EventsExample.sol": "EventsExample"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -75,11 +94,11 @@
 	},
 	"sources": {
 		"contracts/10_EventsExample.sol": {
-			"keccak256": "0xa2eaa996596bf47511e6cd6f97dfd35a351f4fe8c6e28cea4655ceda3af39152",
+			"keccak256": "0xf45f9cfa1a2cb26f536f3eda1ce623a34a92df0f1c0b716d3bd556742540fed4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://47067b126bc2a6a46c131ada5cad36671cba1935ac1ec2fccf667ff82203f1bf",
-				"dweb:/ipfs/QmZ2P5C7jZbR4xiBZud7BtaUKAsPRAewodqzn3E4PydQ95"
+				"bzz-raw://8e163b70e2759f8183de716e6373c822c4077b0d2233b51ce1a6089800cf33d5",
+				"dweb:/ipfs/QmaSpL9BLyWehrqATCboSxtUjCHLDcNFAUNq34VvLMvDjK"
 			]
 		}
 	},

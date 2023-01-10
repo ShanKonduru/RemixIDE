@@ -2,9 +2,13 @@
 
 pragma solidity ^0.8.7;
 
-contract EtherManagement {
+contract EventsExample {
     mapping (address => uint256) public balances;
     address payable wallet; 
+
+    event purchase (
+        address indexed _buyer, 
+        uint256 _amount);
 
     constructor(address payable _wallet) {
         wallet = _wallet;
@@ -19,5 +23,7 @@ contract EtherManagement {
         balances[msg.sender] += 1;
         // Send Eth to a Wallet
         wallet.transfer(msg.value);
+
+        emit purchase(msg.sender, msg.value);
     }
 }
