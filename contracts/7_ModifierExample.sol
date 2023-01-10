@@ -18,7 +18,7 @@ contract ModifierExample{
         uint256 _balance;        
     }
 
-    constructor() public {
+    constructor() {
         owner = msg.sender;
     }    
 
