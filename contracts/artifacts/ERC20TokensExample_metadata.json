@@ -40,25 +40,6 @@
 				"type": "fallback"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "balances",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "buyToken",
 				"outputs": [],
@@ -79,7 +60,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/11_ERC20Tokens.sol": "EventsExample"
+			"contracts/11_ERC20Tokens.sol": "ERC20TokensExample"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -94,11 +75,11 @@
 	},
 	"sources": {
 		"contracts/11_ERC20Tokens.sol": {
-			"keccak256": "0xf45f9cfa1a2cb26f536f3eda1ce623a34a92df0f1c0b716d3bd556742540fed4",
+			"keccak256": "0xbdb8e8c971c30ade62a7d75fa7c0ca71386349ea9fe1d57778bb36ea206e68b9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e163b70e2759f8183de716e6373c822c4077b0d2233b51ce1a6089800cf33d5",
-				"dweb:/ipfs/QmaSpL9BLyWehrqATCboSxtUjCHLDcNFAUNq34VvLMvDjK"
+				"bzz-raw://6a1429856f9b699726849b7265de8b3b583e0304c79c14a2ce72fba243767405",
+				"dweb:/ipfs/QmRAd25b47fnWtqHWV3jN2JdXfyQPjrTCLdjYHLt4bnv8D"
 			]
 		}
 	},
