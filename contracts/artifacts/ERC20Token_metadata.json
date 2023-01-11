@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/11_ERC20Tokens.sol": "ERC20Token"
+			"contracts/12_ContractInheritance.sol": "ERC20Token"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/11_ERC20Tokens.sol": {
-			"keccak256": "0x66051c5b40cb1d39718ab27f571fc32bd82d5f60ea922dad292f76b697095197",
+		"contracts/12_ContractInheritance.sol": {
+			"keccak256": "0xb6fc6575708f377603917d42c63dcc54bd7805f05879e0daba1eb3054cb67545",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2079a1340cccc2bc6cf81039c2e1867b99827a91b97d987d54bf6a47ebfebbfc",
-				"dweb:/ipfs/QmYmghtjztbW6ofyckeRFcyRGNwpTcHTf1vyNXQ38KNAAz"
+				"bzz-raw://63156476f32ec331195c0a2b6729648913428b8a24c7c6b92f498d5d698cfd7a",
+				"dweb:/ipfs/QmPe5g8gVJrg5fBUC1KES5MUv92hmaPjzSfwnS7hiMv3vd"
 			]
 		}
 	},

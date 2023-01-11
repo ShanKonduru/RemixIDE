@@ -59,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/11_ERC20Tokens.sol": "ContractExample"
+			"contracts/12_ContractInheritance.sol": "ParantCo"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -73,12 +73,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/11_ERC20Tokens.sol": {
-			"keccak256": "0x942eb70cda40a8082a3a673b6539a508f1031bb6280e2a6f77633c4d9cd3137a",
+		"contracts/12_ContractInheritance.sol": {
+			"keccak256": "0x2d2094691d4a3ed4bd3f41749aed7d262a81d75858998257d08e69ebf205ba54",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b47cb80050b4e47eb15f4e10f6a44f3b175e688385a985b09b0be5906df36321",
-				"dweb:/ipfs/QmUccppJD1wraiD5waSSLuEQvxfKJPa9fDQ1FmrxZZvwqq"
+				"bzz-raw://b648d129e741fefd6283f94f46309536f2b06a60fda518500c63d5156a5115b7",
+				"dweb:/ipfs/QmTz4TpFUAr7ho27Toxdob8RKDLYduJDBKZjs68hsNkWpk"
 			]
 		}
 	},

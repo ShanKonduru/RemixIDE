@@ -8,38 +8,48 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_wallet",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "_token",
-						"type": "address"
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
-				"stateMutability": "nonpayable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "buyToken",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "token",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -59,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/11_ERC20Tokens.sol": "ContractExample"
+			"contracts/12_ContractInheritance.sol": "BaseContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -73,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/11_ERC20Tokens.sol": {
-			"keccak256": "0x942eb70cda40a8082a3a673b6539a508f1031bb6280e2a6f77633c4d9cd3137a",
+		"contracts/12_ContractInheritance.sol": {
+			"keccak256": "0x1c871c9c648f17c023110b05971f864704ad28bfd477476c1f52d104a20da7b8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b47cb80050b4e47eb15f4e10f6a44f3b175e688385a985b09b0be5906df36321",
-				"dweb:/ipfs/QmUccppJD1wraiD5waSSLuEQvxfKJPa9fDQ1FmrxZZvwqq"
+				"bzz-raw://d205b7f95e842e73578526227f73d0bdbb0cbb313a46805246b1354f97efadff",
+				"dweb:/ipfs/QmTJLdxuGu8wxhHQ1F23R5sCzBtP78Zez3WQiM6gsYhBFw"
 			]
 		}
 	},
