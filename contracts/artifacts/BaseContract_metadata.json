@@ -69,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/12_ContractInheritance.sol": "BaseContract"
+			"contracts/13_UseOfLibraries.sol": "BaseContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -83,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/12_ContractInheritance.sol": {
-			"keccak256": "0x1c871c9c648f17c023110b05971f864704ad28bfd477476c1f52d104a20da7b8",
+		"contracts/13_UseOfLibraries.sol": {
+			"keccak256": "0x1211f9bea40742f48f941c3fef25f94155c9023cc3d6f8d8d586d157f23aef90",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d205b7f95e842e73578526227f73d0bdbb0cbb313a46805246b1354f97efadff",
-				"dweb:/ipfs/QmTJLdxuGu8wxhHQ1F23R5sCzBtP78Zez3WQiM6gsYhBFw"
+				"bzz-raw://ef8b4fb4e21281598c70b82b3a89ef2bb4967b6e1e16180914b15018fe53acd4",
+				"dweb:/ipfs/QmRNAUtBoKeczSqPU5p3TQqk8E5JjzBFNe4Uo9pwJfFCna"
 			]
 		}
 	},

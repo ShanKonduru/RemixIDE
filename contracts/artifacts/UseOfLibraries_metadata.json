@@ -6,33 +6,29 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
-				"name": "Users",
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_balance",
+						"name": "",
 						"type": "uint256"
 					}
 				],
@@ -40,31 +36,20 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_amt",
-						"type": "uint256"
-					}
-				],
-				"name": "addUser",
+				"inputs": [],
+				"name": "mint",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "userCount",
+				"name": "name",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -84,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/7_ModifierExample.sol": "ModifierExample"
+			"contracts/13_UseOfLibraries.sol": "UseOfLibraries"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -98,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/7_ModifierExample.sol": {
-			"keccak256": "0x443a11c887b2114c663105a2c091ada0ac387884129396244377da4f3be0e01f",
+		"contracts/13_UseOfLibraries.sol": {
+			"keccak256": "0x0971201a30feec6290aadf24e2167395859a67625c0f77f286fb0dfcde435971",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b419671080a86174cf81393caeddbb526b4ba1dab82223524b93843b14ebbae9",
-				"dweb:/ipfs/QmXq9RQ4XYaBKZWiziPW9ovSAQakxBEfYyn3Ef7Vtv5gPN"
+				"bzz-raw://657c68c571a0428cccb05842dd034105b19878770ff5e1cd84ac8330c29facc7",
+				"dweb:/ipfs/QmNn6spfcGbff24PFzqe9yM6UVGgb3vtBXdfREHkuzhrPs"
 			]
 		}
 	},

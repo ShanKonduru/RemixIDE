@@ -60,7 +60,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/10_EventsExample.sol": "EtherManagement"
+			"contracts/9_EtherManagement.sol": "EtherManagement"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -74,7 +74,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/10_EventsExample.sol": {
+		"contracts/9_EtherManagement.sol": {
 			"keccak256": "0xa2eaa996596bf47511e6cd6f97dfd35a351f4fe8c6e28cea4655ceda3af39152",
 			"license": "MIT",
 			"urls": [
