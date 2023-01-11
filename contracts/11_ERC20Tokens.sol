@@ -25,8 +25,13 @@ contract ContractExample {
     }
 
     function buyToken() public payable  {
+        // Method #1
         ERC20Token _ercToken = ERC20Token(address (token));
         _ercToken.mint();
+        
+        // Method #2
+        // ERC20Token(address (token)).mint();
+        
         wallet.transfer(msg.value);
     }
 }
