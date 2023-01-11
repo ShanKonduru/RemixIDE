@@ -240,10 +240,11 @@
 	},
 	"sources": {
 		"contracts/99_ShanToken.sol": {
-			"keccak256": "0x75d804c1d4e8100f1252072181d79780310a0f5cf985b632318a1b0ddb082f74",
+			"keccak256": "0xab9b278fe022b5109ca102b2a2e5fab043cdda658bd867fdf75bb59b580faa42",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://cc8bece14cd67262b14143a6421b7f5edf21125a372119b35de73328b878073c",
-				"dweb:/ipfs/QmdihEd2f8Sca1yaJPGMsZUEhaU79zVhTzWioeayKG2RUk"
+				"bzz-raw://ba64c5fa825749de55bfa09d31fbdb5472333f6271fff653d8cf5965febfb134",
+				"dweb:/ipfs/Qme3MHXMJi98cwBcVkQ9mydxnrvrPoXuPdfwW7ZqC2gKVt"
 			]
 		}
 	},

@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkDecrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkIncrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "simpleCounter",
+				"outputs": [
+					{
+						"internalType": "contract SimpleCounter",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"beforeAll()": {
+					"notice": "'beforeAll' runs before all other tests More special functions are: 'beforeEach', 'beforeAll', 'afterEach' & 'afterAll'"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/001_SimpleCounter_test.sol": "testSuite"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UnitTests/001_SimpleCounter.sol": {
+			"keccak256": "0xa2f301dab1f68970668b99f4f3eee85d40918c8c021c28241f169dad5fab4c7e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a6ff6869e22430aa7b761c0f4f58b0f88be4937219a0c8e2d35a531e1b8ba8f3",
+				"dweb:/ipfs/QmaL7MbEExyyLYciWqPKpB2TornnR2dgUUdaLZU85KjDSs"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/001_SimpleCounter_test.sol": {
+			"keccak256": "0xa7d0d37366c2051d230e1a3a241b3402fd2186ee3c7a39eecf004c5d7980ac7e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1c499a1838b5fe81607effaa092947e8856f71509ab77e8c66aef91bec10e23d",
+				"dweb:/ipfs/QmYSFtrZPZ4Dq1xQVvVGuG51Uvjas3BzFmHGzocU2RUYXo"
+			]
+		}
+	},
+	"version": 1
+}

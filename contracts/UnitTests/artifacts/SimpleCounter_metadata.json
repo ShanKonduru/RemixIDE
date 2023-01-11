@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UnitTests/001_SimpleCounter.sol": "SimpleCounter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UnitTests/001_SimpleCounter.sol": {
+			"keccak256": "0xa2f301dab1f68970668b99f4f3eee85d40918c8c021c28241f169dad5fab4c7e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a6ff6869e22430aa7b761c0f4f58b0f88be4937219a0c8e2d35a531e1b8ba8f3",
+				"dweb:/ipfs/QmaL7MbEExyyLYciWqPKpB2TornnR2dgUUdaLZU85KjDSs"
+			]
+		}
+	},
+	"version": 1
+}
